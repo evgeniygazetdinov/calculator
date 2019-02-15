@@ -1,25 +1,13 @@
 import tkinter
 from tkinter import *
 
-def one(event):
-	number == 1
-def two(event):
-	number == 2
-def three(event):
-	number == 3
-def four(event):
-	number == 4
-def five(event):
-	number == 5
-def six(event):
-	number == 6
-def seven(event):
-	number == 7
-def eight(event):
-	number == 8
-def nine(event):
-	number == 9
+numbers = ['one','two','three','four'
+	   'five','six','seven','eight','nine']
 
+def find_number(event):
+	for number in numbers:
+		for i in range(9):
+			number == i
 def plus(event):
 	number + number
 def zero(event):
@@ -27,6 +15,7 @@ def zero(event):
 
 
 root = Tk()
+#replace to one func
 but_1=Button(root,text='1',width=2,height=10,bg='green',fg='black')
 but_1.bind('<Button-1>',one)
 but_1.place(x =100, y = 10, width = 30,bordermode="outside")
