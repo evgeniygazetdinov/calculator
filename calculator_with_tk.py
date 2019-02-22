@@ -17,4 +17,7 @@ def plus(event):
 	
 def zero(event):
 	number - number
+	
+if __name__ == "__main__":
+	main()
 
