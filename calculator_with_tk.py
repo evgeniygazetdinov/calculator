@@ -8,8 +8,10 @@ def find_number(event):
 	for number in numbers:
 		for i in range(9):
 			number == i
+
 def plus(event):
 	number + number
+	
 def zero(event):
 	number - number
 
